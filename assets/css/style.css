@@ -1,0 +1,42 @@
+nav {
+    background-color: #ffffff;
+}
+.navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#navigation {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#namebox {
+    background-color: #4aaaa5;
+    color: white;
+}
+img {
+    /* max-width: 300px;
+    max-height: 200px; */
+}
+
+#line {
+    padding-left: 0px;
+    padding-right: 0px;  
+}
+
+#namebox {
+    padding: 10px;
+}
+
+footer {
+    background-color: #666666;
+    color: #777777;
+    border-top: 10px;
+    border-color: #4aaaa5;
+    border-top-style: solid;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
