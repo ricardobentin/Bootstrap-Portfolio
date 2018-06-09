@@ -1,6 +1,6 @@
 nav {
     background-color: #ffffff;
-}
+ }
 .navbar {
     padding-left: 0px;
     padding-right: 0px;
@@ -9,6 +9,7 @@ nav {
 #navigation {
     padding-left: 0px;
     padding-right: 0px;
+    max-width: 960px;
 }
 
 #namebox {
@@ -40,5 +41,9 @@ footer {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    max-width: 100%;
     
+}
+#content {
+    max-width: 960px;
 }
