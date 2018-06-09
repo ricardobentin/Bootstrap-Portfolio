@@ -16,8 +16,10 @@ nav {
     color: white;
 }
 img {
-    /* max-width: 300px;
-    max-height: 200px; */
+ padding-right: 10px;
+  height: 200px;
+    float: left;
+
 }
 
 #line {
