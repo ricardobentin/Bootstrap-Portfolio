@@ -1,18 +1,20 @@
 body {
     background-image: url("../images/Background.png");
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
 }
 nav {
     background-color: #ffffff;
     margin-bottom: 20px;
     width: 100%;
+  
  }
 .navbar {
     padding-left: 0px;
     padding-right: 0px;
     width: 100%;
-}
+    padding-top: 0px;
+    margin-left: 10px;
+ }
 
 #navigation {
     padding-left: 0px;
@@ -20,9 +22,18 @@ nav {
     width: 100%;
     background-color: #ffffff;
     margin: 0 auto;
+    
 }
 
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
 
+#navbarNav {
+    margin-right: 10px;
+}
 
 #namebox {
     background-color: #4aaaa5;
@@ -38,6 +49,7 @@ h1 {
     font-weight: bold;
     margin-top: 21.44px;
     margin-bottom: 21.44px;
+    font-size: 36px;
 
 }
 
@@ -61,7 +73,6 @@ hr {
     padding-right: 10px;
     height: 200px;
     float: left;
-
 }
 
 #line {
@@ -89,21 +100,8 @@ hr {
     margin-right: 0px;
 }
 
-#row1 {
-    margin-bottom: 20px;
-}
-#row2 {
-    margin-bottom: 20px;
-}
-#row3 {
-    margin-bottom: 20px;
-}
-#row1col1 {
-    /* max-width: 320px; */
-}
-
-#row1col2 {
-    /* max-width: 320px; */
+#hangman {
+    margin-bottom: 20px;  
 }
 
 #hangmanlabel {
@@ -114,7 +112,7 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
 }
@@ -126,9 +124,13 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
+}
+
+#rpg {
+    margin-bottom: 20px;  
 }
 
 #rpglabel {
@@ -139,7 +141,7 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
 }
@@ -152,9 +154,13 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
+}
+
+#trivia {
+    margin-bottom: 20px;  
 }
 
 #trivialabel {
@@ -165,7 +171,7 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
 }
@@ -178,10 +184,15 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
 }
+
+#rutgers {
+    margin-bottom: 20px;  
+}
+
 
 #rutgerslabel {
     text-align: center;
@@ -191,7 +202,7 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
 }
@@ -204,9 +215,13 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
+}
+
+#rps {
+    margin-bottom: 20px;  
 }
 
 #rpslabel {
@@ -217,7 +232,7 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
 }
@@ -230,7 +245,7 @@ hr {
     height: 50px;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     max-width: 300px;
 }
@@ -242,10 +257,7 @@ footer {
     border-color: #4aaaa5;
     border-top-style: solid;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    max-width: 100%;
-    
+    width: 100%; 
 }
 
 .btn-primary {
@@ -279,7 +291,10 @@ footer {
     padding-right: 10px;
 }
 
-.navbar-expand-sm .navbar-nav .nav-link {
-    padding-left: 0px;
-    padding-right: 0px;
+p {
+    color: #777777;
+}
+
+a {
+    color: #777777;
 }
