@@ -1,5 +1,6 @@
 body {
     background-image: url("../images/Background.png");
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     
 }
 nav {
@@ -20,6 +21,8 @@ nav {
     background-color: #ffffff;
     margin: 0 auto;
 }
+
+
 
 #namebox {
     background-color: #4aaaa5;
@@ -52,6 +55,7 @@ hr {
     height: 2px;
     border: none;
     background-color: #cccccc;
+    width: 100%;
 }
 #ricardo {
     padding-right: 10px;
@@ -76,6 +80,8 @@ hr {
     border-style: solid;
     border-width: thin;
     margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;  
     
 }
 .row {
@@ -247,4 +253,33 @@ footer {
     border-color:#4aaaa5;
     color: white;
     font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#about {
+    border-right: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    text-align: center;
+    padding-right: 10px;
+   
+}
+
+#portfolio {
+    border-right: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#contact {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-left: 0px;
+    padding-right: 0px;
 }
