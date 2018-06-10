@@ -5,17 +5,20 @@ body {
 nav {
     background-color: #ffffff;
     margin-bottom: 20px;
+    width: 100%;
  }
 .navbar {
     padding-left: 0px;
     padding-right: 0px;
+    width: 100%;
 }
 
 #navigation {
     padding-left: 0px;
     padding-right: 0px;
-    max-width: 960px;
+    width: 100%;
     background-color: #ffffff;
+    margin: 0 auto;
 }
 
 #namebox {
