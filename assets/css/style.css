@@ -82,6 +82,7 @@ hr {
 
 #namebox {
     padding: 10px;
+    margin-left: 10px;
 }
 
 #content {
@@ -90,7 +91,6 @@ hr {
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
-    margin: 0 auto;
     margin-bottom: 20px;
     padding: 10px;  
     
@@ -257,7 +257,10 @@ footer {
     border-color: #4aaaa5;
     border-top-style: solid;
     text-align: center;
-    width: 100%; 
+    width: 100%;
+    position: relative; 
+    bottom: 0;
+    height: 60px;
 }
 
 .btn-primary {
