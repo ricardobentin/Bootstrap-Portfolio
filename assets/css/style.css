@@ -101,9 +101,21 @@ hr {
     margin-right: 0px;
 }
 
+#row1col1 {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0px;
+}
+#row1col2 {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
 #hangman {
     margin-bottom: 20px;
-    width: 100%;  
+    width: 100%;
 }
 
 #hangmanlabel {
@@ -117,6 +129,7 @@ hr {
     bottom: 30px;
     width: 100%;
     max-width: 300px;
+   
 }
 #hangmanlabel:hover {
     text-align: center;
@@ -309,6 +322,8 @@ textarea {
     height: 400px;
 
 }
+
+
     @media screen and (max-width: 768px) {
         #content {
             background-color: orange;
