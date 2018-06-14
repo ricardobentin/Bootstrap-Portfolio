@@ -86,13 +86,14 @@ hr {
 }
 
 #content {
-    max-width: 960px;
+    width: 66%;
     background-color: #ffffff;
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
     margin-bottom: 20px;
-    padding: 10px;  
+    padding: 10px;
+    margin-left: 20px;  
     
 }
 .row {
@@ -101,7 +102,8 @@ hr {
 }
 
 #hangman {
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
+    width: 100%;  
 }
 
 #hangmanlabel {
@@ -130,7 +132,8 @@ hr {
 }
 
 #rpg {
-    margin-bottom: 20px;  
+    margin-bottom: 20px; 
+    width: 100%;   
 }
 
 #rpglabel {
@@ -301,3 +304,29 @@ p {
 a {
     color: #777777;
 }
+
+textarea {
+    height: 400px;
+
+}
+    @media screen and (max-width: 768px) {
+        #content {
+            background-color: orange;
+            width: 100%;
+            margin: 0 auto;
+ 
+        
+        }
+    }
+
+@media screen and (max-width: 640px) {
+    #content {
+        background-color: blue;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      
+    }
+}
+
+
