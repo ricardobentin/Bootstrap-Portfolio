@@ -101,170 +101,6 @@ hr {
     margin-right: 0px;
 }
 
-#row1col1 {
-    max-width: 350px;
-    margin: 0 auto;
-    padding: 0px;
-}
-#row1col2 {
-    max-width: 350px;
-    margin: 0 auto;
-    padding: 0px;
-}
-
-
-#hangman {
-    margin-bottom: 20px;
-    width: 100%
-}
-
-#hangmanlabel {
-    text-align: center;
-    color: white;
-    background-color: #4aaaa5; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-   
-}
-#hangmanlabel:hover {
-    text-align: center;
-    color: white;
-    background-color: #E89F0C; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-}
-
-#rpg {
-    margin-bottom: 20px; 
-    width: 100%;   
-}
-
-#rpglabel {
-    text-align: center;
-    color: white;
-    background-color: #4aaaa5; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-}
-
-#rpglabel:hover {
-    text-align: center;
-    color: white;
-    background-color: #E89F0C; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-}
-
-#trivia {
-    margin-bottom: 20px;  
-}
-
-#trivialabel {
-    text-align: center;
-    color: white;
-    background-color: #4aaaa5; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-}
-
-#trivialabel:hover {
-    text-align: center;
-    color: white;
-    background-color: #E89F0C; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-}
-
-#rutgers {
-    margin-bottom: 20px;  
-}
-
-
-#rutgerslabel {
-    text-align: center;
-    color: white;
-    background-color: #4aaaa5; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-}
-
-#rutgerslabel:hover {
-    text-align: center;
-    color: white;
-    background-color: #E89F0C; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-}
-
-#rps {
-    margin-bottom: 20px;  
-}
-
-#rpslabel {
-    text-align: center;
-    color: white;
-    background-color: #4aaaa5; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-}
-
-#rpslabel:hover {
-    text-align: center;
-    color: white;
-    background-color: #E89F0C; 
-    z-index: 1;
-    height: 50px;
-    padding: 10px;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 300px;
-}
 
 footer {
     background-color: #666666;
@@ -332,12 +168,11 @@ textarea {
    
 }
 
-
     @media screen and (max-width: 768px) {
         #content {
-            background-color: orange;
             width: 100%;
             margin: 0 auto;
+            margin-bottom: 20px;
  
         
         }
@@ -345,7 +180,6 @@ textarea {
 
 @media screen and (max-width: 640px) {
     #content {
-        background-color: blue;
         width: 95%;
         margin: 0 auto;
         margin-bottom: 20px;
