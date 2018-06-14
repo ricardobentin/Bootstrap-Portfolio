@@ -176,6 +176,7 @@ textarea {
         #content {
             width: 100%;
             margin: 0 auto;
+            margin-left: 20px;
             margin-bottom: 20px;
  
         
@@ -184,10 +185,9 @@ textarea {
 
 @media screen and (max-width: 640px) {
     #content {
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 20px;
-      
     }
 }
 
