@@ -323,6 +323,15 @@ textarea {
 
 }
 
+.carousel-caption {
+    bottom: 100px;
+    background-color: #4aaaa5;
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+   
+}
+
 
     @media screen and (max-width: 768px) {
         #content {
